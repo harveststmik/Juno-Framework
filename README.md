@@ -16,7 +16,7 @@ membangun sebuah `route` yang akan menentukan `controller` dengan `action` yang 
 ## Struktur Direktori
 
 ```
-#--model-1
+#--+ model-1
    |-- css
    |-- js
    |-- controller
@@ -26,5 +26,21 @@ membangun sebuah `route` yang akan menentukan `controller` dengan `action` yang 
 
 # Model 2
 
-Model 2 adalah versi yang lebih lengkap dan moduler, yang dapat lebih mudah untuk dikembangkan, serta diaplikasikan 
+Model 2 adalah versi yang lebih lengkap dan terstruktur, memisahkan inti framework dengan applikasinya.
+Dengan struktur yang seperti ini maka framework lebih mudah untuk dikembangkan, serta diaplikasikan 
 ke berbagai kasus.
+
+## Struktur Direktori
+
+```
+#--+ model-2
+   +--+ juno
+   |  |-- base
+   |  *-- helpers
+   +--+ app    
+      |-- css
+      |-- js
+      |-- controller
+      |-- view
+      +-- model
+```
