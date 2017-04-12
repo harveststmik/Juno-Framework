@@ -39,8 +39,9 @@ ke berbagai kasus.
     |   |-- base
     |   `-- helpers
     `-- app    
-        |-- css
-        |-- js
+        |-- assets
+        |   |-- css
+        |   `-- js
         |-- controller
         |-- view
         `-- model
