@@ -16,12 +16,12 @@ membangun sebuah `route` yang akan menentukan `controller` dengan `action` yang 
 ## Struktur Direktori
 
 ```
-#--+ model-1
-   |-- css
-   |-- js
-   |-- controller
-   |-- view
-   |-- model
+#-- model-1
+    |-- css
+    |-- js
+    |-- controller
+    |-- view
+    `-- model
 ```
 
 # Model 2
@@ -33,14 +33,14 @@ ke berbagai kasus.
 ## Struktur Direktori
 
 ```
-#--+ model-2
-   +--+ juno
-   |  |-- base
-   |  *-- helpers
-   +--+ app    
-      |-- css
-      |-- js
-      |-- controller
-      |-- view
-      +-- model
+#-- model-2
+    |-- juno
+    |   |-- base
+    |   `-- helpers
+    `-- app    
+        |-- css
+        |-- js
+        |-- controller
+        |-- view
+        `-- model
 ```
