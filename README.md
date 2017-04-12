@@ -13,7 +13,16 @@ Model 1, merupakan model yang sangat sederhana, tanpa konfigurasi. index.php lan
 membangun sebuah `route` yang akan menentukan `controller` dengan `action` yang sesuai. `Controller` akan menginisiasi
 `Model` yang diperlukan untuk kemudian melakukan `rendering` terhadap `View` yang diminta.
 
-# Struktur Direktori
+## Struktur Direktori
+
+```
+#--model-1
+   |-- css
+   |-- js
+   |-- controller
+   |-- view
+   |-- model
+```
 
 # Model 2
 
