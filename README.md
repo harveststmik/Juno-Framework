@@ -17,8 +17,9 @@ membangun sebuah `route` yang akan menentukan `controller` dengan `action` yang 
 
 ```
 #-- model-1
-    |-- css
-    |-- js
+    |-- assets
+    |   |-- css
+    |   `-- js
     |-- controller
     |-- view
     `-- model
